@@ -6,7 +6,6 @@ using namespace std;
 // b y papier
 // c z nozyce
 int checking_round(char o, char m) {
-    cout << o << ":" << m << endl;
     int tempscore = 0, winpoint = 0, choisepoint = 0;
     if (o == 'A' && m == 'X') { winpoint = 3; choisepoint = 1; }
     if (o == 'A' && m == 'Y') { winpoint = 6; choisepoint = 2; }
@@ -21,7 +20,6 @@ int checking_round(char o, char m) {
     if (o == 'C' && m == 'Z') { winpoint = 3; choisepoint = 3; }
     cout << winpoint << ":" << choisepoint << ":";
     tempscore = winpoint + choisepoint;
-    cout << tempscore << endl;
     return tempscore;
 }
 int main()
