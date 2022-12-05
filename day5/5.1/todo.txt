@@ -1,0 +1,15 @@
+poprawna odp -> FZCMJCRHZ
+
+przeobic na dynamiczną tablice
+poprawić jakość kodu
+dowiedziec sie dlaczego w tym miejscu :
+
+[R] [N] [S] [T] [P] [P] [W] [Q] [G]
+ 1   2   3   4   5   6   7   8   9 
+					<- musiałem zrobić odstęp żeby zadziałało
+move 1 from 2 to 6
+move 3 from 7 to 9
+
+
+
+wtedy mozna robic part 2!
