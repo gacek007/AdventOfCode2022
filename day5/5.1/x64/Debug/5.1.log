@@ -1,1 +1,4 @@
-﻿  5.1.vcxproj -> D:\Dane\C++\AdventOfCode2022\day5\5.1\x64\Debug\5.1.exe
+﻿  5.1.cpp
+D:\Dane\C++\AdventOfCode2022\day5\5.1\5.1.cpp(49,50): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+D:\Dane\C++\AdventOfCode2022\day5\5.1\5.1.cpp(60,39): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  5.1.vcxproj -> D:\Dane\C++\AdventOfCode2022\day5\5.1\x64\Debug\5.1.exe

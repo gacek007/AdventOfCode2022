@@ -47,8 +47,8 @@ int main() {
 			cout << moves << ":" << from << ":" << to << endl;
 			for (int i = stoi(moves); i > 0; i--) {
 				int rowlength = rows[stoi(from) - 1].length();
-				rows[stoi(to) - 1] += rows[stoi(from) - 1][rowlength-1];
-				rows[stoi(from) - 1].replace(rowlength-1, rowlength-1, "");
+				rows[stoi(to) - 1] += rows[stoi(from) - 1][rowlength - 1];
+				rows[stoi(from) - 1].replace(rowlength - 1, rowlength - 1, "");
 			}
 			cout << endl;
 			for (int i = 0; i < 9; i++) {
